@@ -1,0 +1,24 @@
+2025-01-22 10:47:44,308 - INFO - Loading dataset...
+2025-01-22 10:47:44,329 - INFO - Dataset shape: (2500, 9)
+2025-01-22 10:47:44,329 - INFO - Feature list: ['Temperature', 'Vibration', 'Pressure', 'Run_Time', 'Oil_Level', 'Power_Consumption', 'Product_Rate', 'Maintenance_Due', 'Quality_Score']
+2025-01-22 10:47:44,335 - INFO - Starting model training with GridSearchCV...
+2025-01-22 10:47:46,744 - INFO - Best parameters found: {'criterion': 'gini', 'max_depth': 5, 'min_samples_leaf': 1, 'min_samples_split': 5}
+2025-01-22 10:47:46,744 - INFO - Best cross-validation score: 0.9990
+2025-01-22 10:47:46,745 - INFO - 
+Model Performance on Test Set:
+2025-01-22 10:47:46,755 - INFO - 
+Classification Report:
+              precision    recall  f1-score   support
+
+          No       1.00      1.00      1.00       304
+         Yes       1.00      1.00      1.00       196
+
+    accuracy                           1.00       500
+   macro avg       1.00      1.00      1.00       500
+weighted avg       1.00      1.00      1.00       500
+
+2025-01-22 10:47:46,755 - INFO - 
+Saving model and transformers...
+2025-01-22 10:47:46,759 - INFO - Model pipeline saved successfully!
+2025-01-22 10:47:47,464 - INFO - Loading model pipeline...
+2025-01-22 10:47:47,469 - INFO - Model pipeline loaded successfully!

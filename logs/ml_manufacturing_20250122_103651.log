@@ -1,0 +1,122 @@
+2025-01-22 10:36:51,402 - INFO - Loading dataset...
+2025-01-22 10:36:51,439 - INFO - Selected features: ['Temperature', 'Vibration', 'Pressure', 'Run_Time', 'Oil_Level', 'Power_Consumption', 'Product_Rate', 'Maintenance_Due', 'Quality_Score']
+2025-01-22 10:36:51,440 - INFO - Dataset shape: (2500, 9)
+2025-01-22 10:36:51,441 - INFO - Preparing and splitting data...
+2025-01-22 10:36:51,457 - INFO - 
+Evaluating Logistic Regression...
+2025-01-22 10:36:51,579 - INFO - Accuracy: 0.8660
+2025-01-22 10:36:51,580 - INFO - Cross-validation mean: 0.8430 (+/- 0.0222)
+2025-01-22 10:36:51,586 - INFO - 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.88      0.90      0.89       304
+           1       0.84      0.81      0.83       196
+
+    accuracy                           0.87       500
+   macro avg       0.86      0.86      0.86       500
+weighted avg       0.87      0.87      0.87       500
+
+2025-01-22 10:39:46,550 - INFO - 
+Evaluating Decision Tree...
+2025-01-22 10:39:46,604 - INFO - Accuracy: 1.0000
+2025-01-22 10:39:46,605 - INFO - Cross-validation mean: 0.9980 (+/- 0.0049)
+2025-01-22 10:39:46,612 - INFO - 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00       304
+           1       1.00      1.00      1.00       196
+
+    accuracy                           1.00       500
+   macro avg       1.00      1.00      1.00       500
+weighted avg       1.00      1.00      1.00       500
+
+2025-01-22 10:39:48,084 - INFO - 
+Evaluating Random Forest...
+2025-01-22 10:39:49,481 - INFO - Accuracy: 1.0000
+2025-01-22 10:39:49,481 - INFO - Cross-validation mean: 0.9980 (+/- 0.0080)
+2025-01-22 10:39:49,484 - INFO - 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00       304
+           1       1.00      1.00      1.00       196
+
+    accuracy                           1.00       500
+   macro avg       1.00      1.00      1.00       500
+weighted avg       1.00      1.00      1.00       500
+
+2025-01-22 10:39:51,171 - INFO - 
+Evaluating Gradient Boosting...
+2025-01-22 10:39:53,712 - INFO - Accuracy: 1.0000
+2025-01-22 10:39:53,712 - INFO - Cross-validation mean: 0.9980 (+/- 0.0049)
+2025-01-22 10:39:53,720 - INFO - 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00       304
+           1       1.00      1.00      1.00       196
+
+    accuracy                           1.00       500
+   macro avg       1.00      1.00      1.00       500
+weighted avg       1.00      1.00      1.00       500
+
+2025-01-22 10:39:55,770 - INFO - 
+Evaluating XGBoost...
+2025-01-22 10:39:56,734 - INFO - Accuracy: 0.9980
+2025-01-22 10:39:56,735 - INFO - Cross-validation mean: 0.9970 (+/- 0.0058)
+2025-01-22 10:39:56,742 - INFO - 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00       304
+           1       1.00      0.99      1.00       196
+
+    accuracy                           1.00       500
+   macro avg       1.00      1.00      1.00       500
+weighted avg       1.00      1.00      1.00       500
+
+2025-01-22 10:40:07,136 - INFO - 
+Evaluating SVM...
+2025-01-22 10:40:07,530 - INFO - Accuracy: 0.9440
+2025-01-22 10:40:07,530 - INFO - Cross-validation mean: 0.9425 (+/- 0.0277)
+2025-01-22 10:40:07,538 - INFO - 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.95      0.96      0.95       304
+           1       0.94      0.92      0.93       196
+
+    accuracy                           0.94       500
+   macro avg       0.94      0.94      0.94       500
+weighted avg       0.94      0.94      0.94       500
+
+2025-01-22 10:40:09,564 - INFO - 
+Evaluating KNN...
+2025-01-22 10:40:09,755 - INFO - Accuracy: 0.8720
+2025-01-22 10:40:09,756 - INFO - Cross-validation mean: 0.8865 (+/- 0.0223)
+2025-01-22 10:40:09,759 - INFO - 
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.86      0.95      0.90       304
+           1       0.90      0.76      0.82       196
+
+    accuracy                           0.87       500
+   macro avg       0.88      0.85      0.86       500
+weighted avg       0.87      0.87      0.87       500
+
+2025-01-22 10:41:06,104 - INFO - 
+Model Comparison:
+2025-01-22 10:41:06,115 - INFO - 
+                     Accuracy  CV Mean  CV Std
+Logistic Regression     0.866   0.8430  0.0111
+Decision Tree           1.000   0.9980  0.0024
+Random Forest           1.000   0.9980  0.0040
+Gradient Boosting       1.000   0.9980  0.0024
+XGBoost                 0.998   0.9970  0.0029
+SVM                     0.944   0.9425  0.0139
+KNN                     0.872   0.8865  0.0111
+2025-01-22 10:41:06,116 - INFO - 
+Best performing model: Decision Tree with accuracy: 1.0000

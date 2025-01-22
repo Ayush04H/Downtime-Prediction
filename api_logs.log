@@ -1,0 +1,7 @@
+2025-01-21 22:35:59,147 - fastapi - ERROR - Form data requires "python-multipart" to be installed. 
+You can install "python-multipart" with: 
+
+pip install python-multipart
+
+2025-01-21 22:36:59,545 - Manufacturing-API - INFO - API Started - Model loaded successfully
+2025-01-21 22:39:15,154 - Manufacturing-API - INFO - API Started - Model loaded successfully

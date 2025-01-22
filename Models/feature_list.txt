@@ -1,0 +1,9 @@
+Temperature
+Vibration
+Pressure
+Run_Time
+Oil_Level
+Power_Consumption
+Product_Rate
+Maintenance_Due
+Quality_Score

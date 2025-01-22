@@ -1,0 +1,5 @@
+2025-01-22 10:49:32,428 - INFO - Loading model and preprocessors...
+2025-01-22 10:49:33,053 - INFO - Model loaded successfully!
+2025-01-22 10:49:33,054 - INFO - Required features: Temperature, Vibration, Pressure, Run_Time, Oil_Level, Power_Consumption, Product_Rate, Maintenance_Due, Quality_Score
+2025-01-22 10:49:37,763 - INFO - Prediction made successfully!
+2025-01-22 10:51:47,160 - INFO - Prediction made successfully!
